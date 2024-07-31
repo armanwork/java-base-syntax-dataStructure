@@ -1,6 +1,14 @@
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Array arr = new Array(3);
 
+        arr.Insert(10);
+        arr.Insert(20);
+        arr.Insert(30);
+        arr.Insert(40);
+        arr.Insert(40);
+        arr.print();
     }
+
 }
