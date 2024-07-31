@@ -20,13 +20,23 @@ public class Array {
 
                }
 // if space is exist add item
-//
-//          // set items in new array
+          // set items in new array
                Array=newarr;
           }
           Array[count++]=item;
      }
 
+     public void removeAt(int index){
+          if(index <0 || index>=count){
+               System.out.println("s");
+               throw new IllegalArgumentException();
+          }
+          for(int i = index; i < count; i++){
+               Array[i]=Array[i+1];
+
+          }
+          count--;
+     }
 
 
 }

@@ -8,6 +8,7 @@ public class Main {
         arr.Insert(30);
         arr.Insert(40);
         arr.Insert(40);
+        arr.removeAt(1);
         arr.print();
     }
 
