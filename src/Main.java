@@ -3,6 +3,14 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println(Thread.currentThread().getName());
+
+//        var list = new LinkedList();
+//        list.addLast(10);
+//        list.addLast(20);
+//        list.addLast(30);
+
+
 
 //        Array arr = new Array(3);
 //

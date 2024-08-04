@@ -28,7 +28,7 @@ public class Array {
 
      public void removeAt(int index){
           if(index <0 || index>=count){
-               System.out.println("s");
+
                throw new IllegalArgumentException();
           }
           for(int i = index; i < count; i++){
